@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Red Hat Text';
+    src: url('/fonts/Red_Hat_Text/static/RedHatText-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  :root {
+    @apply font-red-hat text-white;
+  }
+}
